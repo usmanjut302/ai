@@ -1,0 +1,4 @@
+Usman-59000-medium
+Ali-30000-low
+josan-45000-low
+Hassan-70000-high

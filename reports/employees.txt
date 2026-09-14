@@ -1,0 +1,4 @@
+Usman,59000
+Ali,30000
+josan,45000
+Hassan,70000
