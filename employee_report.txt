@@ -1,0 +1,14 @@
+==============================
+EMPLOYEE REPORT
+==============================
+Usman - 65000 - High
+Ali - 48000 - Low
+Hassan - 75000 - High
+Jutt - 55000 - Medium
+Ahmed - 90000 - High
+==============================
+STATISTICS
+Total Employees: 5
+High: 3
+Medium: 1
+Low: 1

@@ -1,0 +1,94 @@
+INFO:root:Normal workflow running
+WARNING:root:Something unusual happened
+ERROR:root:Something failed
+CRITICAL:root:Critical system failure
+INFO:root:Normal workflow running
+WARNING:root:Something unusual happened
+ERROR:root:Something failed
+CRITICAL:root:Critical system failure
+2026-09-23 14:34:44,360 - INFO - Workflow started
+2026-09-23 14:34:44,367 - INFO - AI response received
+2026-09-23 14:34:44,367 - WARNING - Something unusual happened
+2026-09-23 14:34:44,367 - ERROR - Something failed
+2026-09-23 14:34:44,367 - INFO - Workflow completed
+2026-09-23 14:37:08,112 - INFO - Workflow started
+2026-09-23 14:37:08,113 - ERROR - Calculation failed: division by zero
+2026-09-23 14:37:08,113 - INFO - Workflow finished
+2026-09-23 14:40:25,691 - INFO - Workflow started
+2026-09-23 14:40:25,691 - ERROR - Calculation failed: division by zero
+2026-09-23 14:40:25,691 - INFO - Recovery action started
+2026-09-23 14:40:25,691 - INFO - Default value assigned
+2026-09-23 14:40:25,691 - INFO - Workflow finished
+2026-09-23 14:45:27,763 - INFO - Workflow started
+2026-09-23 14:45:27,764 - INFO - Attempt 1 started
+2026-09-23 14:45:27,764 - ERROR - Attempt 1 failed: division by zero
+2026-09-23 14:45:27,764 - INFO - Retrying....
+2026-09-23 14:45:29,772 - INFO - Attempt 2 started
+2026-09-23 14:45:29,772 - ERROR - Attempt 2 failed: division by zero
+2026-09-23 14:45:29,772 - INFO - Retrying....
+2026-09-23 14:45:31,775 - INFO - Attempt 3 started
+2026-09-23 14:45:31,776 - ERROR - Attempt 3 failed: division by zero
+2026-09-23 14:45:31,776 - ERROR - All attempts failed
+2026-09-23 14:45:31,776 - INFO - Workflow finished
+2026-09-23 14:46:58,416 - INFO - Workflow started
+2026-09-23 14:46:58,417 - INFO - Attempt 1 started
+2026-09-23 14:46:58,417 - INFO - Calculation completed
+2026-09-23 14:46:58,417 - INFO - Workflow finished
+2026-09-23 14:58:03,148 - INFO - Workflow started
+2026-09-23 14:58:03,149 - INFO - Attempt 1 started
+2026-09-23 14:58:03,149 - ERROR - Attempt 1 failed: Temporary failure
+2026-09-23 14:58:03,149 - INFO - Retrying...
+2026-09-23 14:58:05,149 - INFO - Attempt 2 started
+2026-09-23 14:58:05,150 - ERROR - Attempt 2 failed: Temporary failure
+2026-09-23 14:58:05,150 - INFO - Retrying...
+2026-09-23 14:58:07,151 - INFO - Attempt 3 started
+2026-09-23 14:58:07,151 - INFO - Operation successful: 100
+2026-09-23 14:58:07,152 - INFO - Workflow finished
+2026-09-23 15:13:28,505 - INFO - Workflow started
+2026-09-23 15:13:28,505 - INFO - Action validated: human_support
+2026-09-23 15:13:28,508 - INFO - Attempt 1 started
+2026-09-23 15:13:28,508 - INFO - Ticket sent to human support
+2026-09-23 15:13:28,508 - INFO - Operation successful: human_support
+2026-09-23 15:13:28,508 - INFO - Workflow completed
+2026-09-23 15:13:56,510 - INFO - Workflow started
+2026-09-23 15:13:56,510 - ERROR - Invalid action: human_
+2026-09-23 15:13:56,512 - INFO - Workflow completed
+2026-09-23 15:16:02,928 - INFO - Workflow started
+2026-09-23 15:16:02,928 - INFO - Action validated: human_support
+2026-09-23 15:16:02,928 - INFO - Attempt 1 started
+2026-09-23 15:16:02,928 - ERROR - Attempt 1 failed: Temporary failure
+2026-09-23 15:16:02,928 - INFO - Retrying....
+2026-09-23 15:16:04,929 - INFO - Attempt 2 started
+2026-09-23 15:16:04,930 - ERROR - Attempt 2 failed: Temporary failure
+2026-09-23 15:16:04,930 - INFO - Retrying....
+2026-09-23 15:16:06,932 - INFO - Attempt 3 started
+2026-09-23 15:16:06,932 - ERROR - Attempt 3 failed: Temporary failure
+2026-09-23 15:16:06,932 - ERROR - All attempts failed
+2026-09-23 15:16:06,932 - WARNING - Human review required
+2026-09-23 15:16:06,932 - INFO - Workflow completed
+2026-09-23 15:19:15,955 - INFO - Workflow started
+2026-09-23 15:19:15,955 - INFO - Action validated: human_support
+2026-09-23 15:19:15,955 - INFO - Attempt 1 started
+2026-09-23 15:19:15,955 - INFO - Ticket sent to human support
+2026-09-23 15:19:15,955 - ERROR - Attempt 1 failed: Temporary failure
+2026-09-23 15:19:15,956 - INFO - Retrying....
+2026-09-23 15:19:17,956 - INFO - Attempt 2 started
+2026-09-23 15:19:17,956 - INFO - Ticket sent to human support
+2026-09-23 15:19:17,965 - ERROR - Attempt 2 failed: Temporary failure
+2026-09-23 15:19:17,966 - INFO - Retrying....
+2026-09-23 15:19:19,967 - INFO - Attempt 3 started
+2026-09-23 15:19:19,967 - INFO - Ticket sent to human support
+2026-09-23 15:19:19,967 - INFO - Operation successful: human_support
+2026-09-23 15:19:19,967 - INFO - Workflow completed
+2026-09-23 15:23:15,317 - INFO - Workflow started
+2026-09-23 15:23:15,317 - INFO - Action validated: human_support
+2026-09-23 15:23:15,317 - INFO - Attempt 1 started
+2026-09-23 15:23:15,318 - ERROR - Attempt 1 failed: Temporary failure
+2026-09-23 15:23:15,318 - INFO - Retrying....
+2026-09-23 15:23:17,318 - INFO - Attempt 2 started
+2026-09-23 15:23:17,318 - ERROR - Attempt 2 failed: Temporary failure
+2026-09-23 15:23:17,318 - INFO - Retrying....
+2026-09-23 15:23:19,319 - INFO - Attempt 3 started
+2026-09-23 15:23:19,319 - INFO - Ticket sent to human support
+2026-09-23 15:23:19,319 - INFO - Operation successful: human_support
+2026-09-23 15:23:19,319 - INFO - Workflow completed
