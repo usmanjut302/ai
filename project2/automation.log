@@ -347,3 +347,210 @@
 2026-09-26 15:08:39,781 - INFO - Request 48: action started: replacement
 2026-09-26 15:08:39,794 - INFO - Request 48: action succeeded
 2026-09-26 15:08:39,805 - INFO - Request 48 completed successfully
+2026-09-27 15:10:22,091 - INFO - Customer request received
+2026-09-27 15:10:33,557 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:10:33,631 - INFO - Validated AI result: {'category': 'product_damage', 'priority': 'high', 'action': 'replacement'}
+2026-09-27 15:10:33,711 - INFO - Request 49 saved to database
+2026-09-27 15:10:33,711 - INFO - Request 49: attempt 1
+2026-09-27 15:10:33,712 - INFO - Request 49: action started: replacement
+2026-09-27 15:10:33,716 - INFO - Request 49: action succeeded
+2026-09-27 15:10:33,738 - INFO - Request 49 completed successfully
+2026-09-27 15:12:11,780 - INFO - Customer request received
+2026-09-27 15:12:18,507 - INFO - Retrying request in 0.394485 seconds (retry 1 of 2)
+2026-09-27 15:12:23,658 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:12:23,664 - INFO - Retrying request in 0.840160 seconds (retry 2 of 2)
+2026-09-27 15:12:26,673 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:12:38,061 - INFO - Retrying request in 0.388389 seconds (retry 1 of 2)
+2026-09-27 15:12:43,882 - INFO - Retrying request in 0.762991 seconds (retry 2 of 2)
+2026-09-27 15:12:59,531 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:12:59,596 - INFO - Validated AI result: {'category': 'product_damage', 'priority': 'high', 'action': 'replacement'}
+2026-09-27 15:12:59,610 - INFO - Request 50 saved to database
+2026-09-27 15:12:59,610 - INFO - Request 50: attempt 1
+2026-09-27 15:12:59,611 - INFO - Request 50: action started: replacement
+2026-09-27 15:12:59,613 - INFO - Request 50: action succeeded
+2026-09-27 15:12:59,622 - INFO - Request 50 completed successfully
+2026-09-27 15:17:55,507 - INFO - Customer request received
+2026-09-27 15:18:01,323 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:18:01,371 - INFO - Validated AI result: {'category': 'product_damage', 'priority': 'high', 'action': 'replacement'}
+2026-09-27 15:18:01,417 - INFO - Request 51 saved to database
+2026-09-27 15:18:01,419 - INFO - Request 51: attempt 1
+2026-09-27 15:18:01,419 - INFO - Request 51: action started: replacement
+2026-09-27 15:18:01,421 - INFO - Request 51: action succeeded
+2026-09-27 15:18:01,437 - INFO - Request 51 completed successfully
+2026-09-27 15:25:51,042 - INFO - Customer request received
+2026-09-27 15:25:56,436 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:25:56,484 - INFO - Validated AI result: {'category': 'product_damage', 'priority': 'high', 'action': 'replacement'}
+2026-09-27 15:25:56,506 - INFO - Request 52 saved to database
+2026-09-27 15:25:56,506 - INFO - Request 52: attempt 1
+2026-09-27 15:25:56,507 - INFO - Request 52: action started: replacement
+2026-09-27 15:25:56,507 - INFO - Request 52: action succeeded
+2026-09-27 15:25:56,517 - INFO - Request 52 completed successfully
+2026-09-27 15:35:41,184 - INFO - Customer request received
+2026-09-27 15:35:57,116 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:35:57,187 - INFO - Request 53 saved to database
+2026-09-27 15:35:57,188 - INFO - Request 53: attempt 1
+2026-09-27 15:35:57,188 - INFO - Request 53: action started: replacement
+2026-09-27 15:35:57,189 - INFO - Request 53: action succeeded
+2026-09-27 15:35:57,197 - INFO - Request 53 completed successfully
+2026-09-27 15:36:56,640 - INFO - Customer request received
+2026-09-27 15:36:56,640 - ERROR - AI result validation failed
+2026-09-27 15:37:15,264 - INFO - Customer request received
+2026-09-27 15:37:15,265 - ERROR - AI result validation failed
+2026-09-27 15:39:04,816 - INFO - Customer request received
+2026-09-27 15:39:09,593 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:39:09,677 - INFO - Request 54 saved to database
+2026-09-27 15:39:09,677 - INFO - Request 54: attempt 1
+2026-09-27 15:39:09,677 - INFO - Request 54: action started: replacement
+2026-09-27 15:39:09,687 - ERROR - Request 54: attempt 1 failed: Replacement service unavailable
+2026-09-27 15:39:09,688 - INFO - Request 54: attempt 2
+2026-09-27 15:39:09,688 - INFO - Request 54: action started: replacement
+2026-09-27 15:39:09,690 - ERROR - Request 54: attempt 2 failed: Replacement service unavailable
+2026-09-27 15:39:09,690 - INFO - Request 54: attempt 3
+2026-09-27 15:39:09,691 - INFO - Request 54: action started: replacement
+2026-09-27 15:39:09,691 - ERROR - Request 54: attempt 3 failed: Replacement service unavailable
+2026-09-27 15:39:09,700 - WARNING - Request 54: transferred to human support
+2026-09-27 15:52:14,214 - INFO - Customer request received
+2026-09-27 15:52:19,557 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:52:19,578 - INFO - Retrying request in 0.417039 seconds (retry 1 of 2)
+2026-09-27 15:53:33,022 - INFO - Retrying request in 0.957547 seconds (retry 2 of 2)
+2026-09-27 15:53:38,990 - INFO - Retrying request in 0.397114 seconds (retry 1 of 2)
+2026-09-27 15:53:51,563 - INFO - Retrying request in 0.938039 seconds (retry 2 of 2)
+2026-09-27 15:54:21,609 - INFO - Retrying request in 0.466351 seconds (retry 1 of 2)
+2026-09-27 15:54:34,130 - INFO - Retrying request in 0.863661 seconds (retry 2 of 2)
+2026-09-27 15:54:47,039 - ERROR - AI result validation failed
+2026-09-27 15:55:38,957 - INFO - Customer request received
+2026-09-27 15:55:45,707 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:55:45,890 - INFO - Request 55 saved to database
+2026-09-27 15:55:45,890 - INFO - Request 55: attempt 1
+2026-09-27 15:55:45,890 - INFO - Request 55: action started: replacement
+2026-09-27 15:55:45,892 - INFO - Request 55: action succeeded
+2026-09-27 15:55:45,898 - INFO - Request 55 completed successfully
+2026-09-27 15:57:09,198 - INFO - Customer request received
+2026-09-27 15:57:14,105 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:57:14,185 - INFO - Request 56 saved to database
+2026-09-27 15:57:14,186 - INFO - Request 56: attempt 1
+2026-09-27 15:57:14,186 - INFO - Request 56: action started: replacement
+2026-09-27 15:57:14,187 - INFO - Request 56: action succeeded
+2026-09-27 15:57:14,191 - INFO - Request 56 completed successfully
+2026-09-27 15:59:06,925 - INFO - Customer request received
+2026-09-27 15:59:11,001 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:59:11,004 - INFO - Retrying request in 0.495567 seconds (retry 1 of 2)
+2026-09-27 15:59:20,372 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:59:20,381 - INFO - Retrying request in 0.823184 seconds (retry 2 of 2)
+2026-09-27 15:59:26,248 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:59:36,192 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-27 15:59:36,200 - INFO - Retrying request in 0.468369 seconds (retry 1 of 2)
+2026-09-27 15:59:48,573 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:59:48,751 - INFO - Request 57 saved to database
+2026-09-27 15:59:48,751 - INFO - Request 57: attempt 1
+2026-09-27 15:59:48,752 - INFO - Request 57: action started: replacement
+2026-09-27 15:59:48,753 - ERROR - Request 57: attempt 1 failed: Replacement service unavailable
+2026-09-27 15:59:48,753 - INFO - Request 57: attempt 2
+2026-09-27 15:59:48,753 - INFO - Request 57: action started: replacement
+2026-09-27 15:59:48,755 - ERROR - Request 57: attempt 2 failed: Replacement service unavailable
+2026-09-27 15:59:48,755 - INFO - Request 57: attempt 3
+2026-09-27 15:59:48,755 - INFO - Request 57: action started: replacement
+2026-09-27 15:59:48,757 - ERROR - Request 57: attempt 3 failed: Replacement service unavailable
+2026-09-27 15:59:48,765 - WARNING - Request 57: transferred to human support
+2026-09-27 16:01:33,337 - INFO - Customer request received
+2026-09-27 16:01:37,079 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 16:01:37,180 - INFO - Request 58 saved to database
+2026-09-27 16:01:37,180 - INFO - Request 58: attempt 1
+2026-09-27 16:01:37,180 - INFO - Request 58: action started: replacement
+2026-09-27 16:01:37,180 - INFO - Request 58: action succeeded
+2026-09-27 16:01:37,186 - INFO - Request 58 completed successfully
+2026-09-27 16:01:37,186 - ERROR - Request 58: status update failed: Database update failed
+2026-09-28 16:21:09,388 - INFO - Customer request received
+2026-09-28 16:21:10,728 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:10,736 - INFO - Retrying request in 0.377577 seconds (retry 1 of 2)
+2026-09-28 16:21:11,832 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:11,843 - INFO - Retrying request in 0.770983 seconds (retry 2 of 2)
+2026-09-28 16:21:13,369 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:20,252 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:20,264 - INFO - Retrying request in 0.482080 seconds (retry 1 of 2)
+2026-09-28 16:21:21,827 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:21,831 - INFO - Retrying request in 0.843901 seconds (retry 2 of 2)
+2026-09-28 16:21:26,128 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:34,947 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:21:34,954 - INFO - Retrying request in 0.389771 seconds (retry 1 of 2)
+2026-09-28 16:21:35,887 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-28 16:21:35,891 - INFO - Retrying request in 0.946055 seconds (retry 2 of 2)
+2026-09-28 16:21:37,185 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-28 16:21:37,194 - ERROR - AI result validation failed
+2026-09-28 16:22:25,801 - INFO - Customer request received
+2026-09-28 16:22:31,063 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:22:33,644 - INFO - Request 59 saved to database
+2026-09-28 16:22:33,645 - INFO - Request 59: attempt 1
+2026-09-28 16:22:33,645 - INFO - Request 59: action started: replacement
+2026-09-28 16:22:33,645 - INFO - Request 59: action succeeded
+2026-09-28 16:22:33,660 - INFO - Request 59 completed successfully
+2026-09-28 16:23:22,290 - INFO - Customer request received
+2026-09-28 16:23:29,981 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:23:29,999 - INFO - Retrying request in 0.417852 seconds (retry 1 of 2)
+2026-09-28 16:23:31,265 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:23:31,271 - INFO - Retrying request in 0.884836 seconds (retry 2 of 2)
+2026-09-28 16:23:34,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:23:45,624 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:23:46,042 - INFO - Request 60 saved to database
+2026-09-28 16:23:46,042 - INFO - Request 60: attempt 1
+2026-09-28 16:23:46,043 - INFO - Request 60: action started: replacement
+2026-09-28 16:23:46,043 - ERROR - Request 60: attempt 1 failed: Replacement service unavailable
+2026-09-28 16:23:46,044 - INFO - Request 60: attempt 2
+2026-09-28 16:23:46,044 - INFO - Request 60: action started: replacement
+2026-09-28 16:23:46,046 - ERROR - Request 60: attempt 2 failed: Replacement service unavailable
+2026-09-28 16:23:46,046 - INFO - Request 60: attempt 3
+2026-09-28 16:23:46,047 - INFO - Request 60: action started: replacement
+2026-09-28 16:23:46,048 - ERROR - Request 60: attempt 3 failed: Replacement service unavailable
+2026-09-28 16:23:46,057 - WARNING - Request 60: transferred to human support
+2026-09-28 16:24:52,233 - INFO - Customer request received
+2026-09-28 16:25:07,522 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:25:07,528 - INFO - Retrying request in 0.428878 seconds (retry 1 of 2)
+2026-09-28 16:25:25,883 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:25:25,885 - INFO - Retrying request in 0.851314 seconds (retry 2 of 2)
+2026-09-28 16:25:38,670 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:25:38,811 - INFO - Request 61 saved to database
+2026-09-28 16:25:38,811 - INFO - Request 61: attempt 1
+2026-09-28 16:25:38,812 - INFO - Request 61: action started: replacement
+2026-09-28 16:25:38,812 - INFO - Request 61: action succeeded
+2026-09-28 16:25:38,824 - INFO - Request 61 completed successfully
+2026-09-28 16:25:38,825 - ERROR - Request 61: status update failed: Database update failed
+2026-09-28 16:42:46,118 - INFO - Customer request received
+2026-09-28 16:42:55,542 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:42:55,555 - INFO - Retrying request in 0.439245 seconds (retry 1 of 2)
+2026-09-28 16:43:01,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:43:01,880 - INFO - Retrying request in 0.799638 seconds (retry 2 of 2)
+2026-09-28 16:43:13,260 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:43:13,351 - ERROR - Failed to save customer request: Database save test failed
+2026-09-28 16:43:13,352 - INFO - Request None saved to database
+2026-09-28 16:43:13,352 - INFO - Request None: attempt 1
+2026-09-28 16:43:13,352 - INFO - Request None: action started: replacement
+2026-09-28 16:43:13,353 - INFO - Request None: action succeeded
+2026-09-28 16:43:13,367 - INFO - Request None completed successfully
+2026-09-28 16:43:13,368 - ERROR - Customer request saving failed. Workflow stopped.
+2026-09-28 16:46:20,842 - INFO - Customer request received
+2026-09-28 16:46:22,801 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-09-28 16:46:22,809 - INFO - Retrying request in 0.448050 seconds (retry 1 of 2)
+2026-09-28 16:46:33,355 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:46:33,493 - ERROR - Failed to save customer request: Database save test failed
+2026-09-28 16:46:33,494 - ERROR - Customer request saving failed. Workflow stopped.
+2026-09-28 16:47:32,726 - INFO - Customer request received
+2026-09-28 16:47:33,939 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-28 16:47:33,952 - INFO - Retrying request in 0.436718 seconds (retry 1 of 2)
+2026-09-28 16:47:34,750 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-28 16:47:34,759 - INFO - Retrying request in 0.968678 seconds (retry 2 of 2)
+2026-09-28 16:47:36,042 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-28 16:47:46,148 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-28 16:47:46,236 - INFO - Request 62 saved to database
+2026-09-28 16:47:46,237 - INFO - Request 62: attempt 1
+2026-09-28 16:47:46,237 - INFO - Request 62: action started: replacement
+2026-09-28 16:47:46,238 - INFO - Request 62: action succeeded
+2026-09-28 16:47:46,254 - INFO - Request 62 completed successfully
+2026-09-29 09:32:13,871 - INFO - Customer request received
+2026-09-29 09:32:13,880 - ERROR - Error occur during analyzing customer message: AI connection failed
+2026-09-29 09:38:23,455 - INFO - Customer request received
+2026-09-29 09:38:28,807 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-09-29 09:38:29,136 - INFO - Request 63 saved to database
+2026-09-29 09:38:29,136 - INFO - Request 63: attempt 1
+2026-09-29 09:38:29,136 - INFO - Request 63: action started: replacement
+2026-09-29 09:38:29,136 - INFO - Request 63: action succeeded
+2026-09-29 09:38:29,153 - INFO - Request 63 completed successfully

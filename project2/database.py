@@ -1,5 +1,6 @@
 import mysql.connector
 from config import DB_PASSWORD
+import logging
 
 connection = mysql.connector.connect(
     host="localhost",
@@ -26,15 +27,23 @@ def save_customer_request(message, category, priority, action):
         action,
         "pending"
     )
+    try:
+        # raise Exception("Database save test failed")
+        cursor.execute(query, data)
+        connection.commit()
+        request_id=cursor.lastrowid
 
-    cursor.execute(query, data)
-    connection.commit()
-    request_id=cursor.lastrowid
+        print("Customer request saved successfully")
+        print("Request ID:", request_id)
 
-    print("Customer request saved successfully")
-    print("Request ID:", request_id)
+        return request_id
+    
+    except Exception as db_error:
+        print("Customer request saving failed")
+        logging.error(f"Failed to save customer request: {db_error}")
+        return None
 
-    return request_id
+
 
 def update_request_status(request_id, status):
 
